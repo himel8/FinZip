@@ -1,7 +1,7 @@
 import React from "react";
 
-const SubText = ({ children, style }) => {
-  return <p className={`font-text text-lg ${style}`}>{children}</p>;
+const SubText = ({ children, Style }) => {
+  return <p className={`font-text text-lg ${Style}`}>{children}</p>;
 };
 
 export default SubText;
