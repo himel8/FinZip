@@ -37,7 +37,7 @@ const Testimonial = () => {
       <h2 className="font-text text-5xl text-center font-light text-[#606060] mb-8">
         Testimonial
       </h2>
-      <div className="bg-[#f4f5f7] py-28 px-10">
+      <div className="bg-[#f4f5f7] py-24 px-10">
         <Slider testimonialData={testimonialData} />
       </div>
     </section>

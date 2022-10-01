@@ -9,17 +9,17 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <nav className="bg-white">
-      <div className="flex items-center font-medium justify-around w-[95%] sm:w-[90%] md:w-[80%] mx-auto">
-        <div className="z-50 p-5 md:w-auto w-full flex justify-between">
-          <img src={Logo} alt="logo" className="md:cursor-pointer h-9" />
+      <div className="flex items-center font-medium justify-around w-[95%] xl:w-[80%] mx-auto">
+        <div className="z-50 p-5 lg:w-auto w-full flex justify-between">
+          <img src={Logo} alt="logo" className="lg:cursor-pointer h-9" />
           <div
-            className="text-3xl md:hidden cursor-pointer"
+            className="text-3xl lg:hidden cursor-pointer"
             onClick={() => setOpen(!open)}
           >
             {open ? <MdOutlineClose /> : <GiHamburgerMenu />}
           </div>
         </div>
-        <ul className="md:flex hidden capitalize items-center gap-10">
+        <ul className="lg:flex hidden capitalize items-center gap-6 xl:gap-10">
           <li>
             <Link
               to="/"
@@ -30,7 +30,7 @@ const Navbar = () => {
           </li>
           <NavLinks />
         </ul>
-        <div className="md:block hidden">
+        <div className="lg:block hidden">
           <Button
             Style="font-link text-[#737373] text-[1rem] border border-[#737373] mr-2"
             link="/signin"
@@ -47,7 +47,7 @@ const Navbar = () => {
         {/* Mobile nav */}
         <ul
           className={`
-        md:hidden bg-white absolute w-full top-0 overflow-y-auto bottom-0 py-24 pl-4 scrollbar-hide
+        lg:hidden bg-white absolute w-full top-0 overflow-y-auto bottom-0 py-24 pl-4 scrollbar-hide
         duration-500 ${open ? "left-0" : "left-[-100%]"}
         `}
         >

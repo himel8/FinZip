@@ -65,7 +65,7 @@ const Footer = () => {
             </h6>
             {data.link.map((data, index) => (
               <a href={data.link} key={index}>
-                <p className="font-text text-white text-[15px] text-left">
+                <p className="font-text text-white text-[15px] text-left pb-1">
                   {data.name}
                 </p>
               </a>
