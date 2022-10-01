@@ -6,11 +6,9 @@ export const links = [
       {
         Head: "Topwear",
         sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
+          { name: "Item 1", link: "/" },
+          { name: "Item 2", link: "/" },
+          { name: "Item 3", link: "/" },
         ],
       },
     ],
