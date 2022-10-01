@@ -28,13 +28,13 @@ const NavLinks = () => {
             </h3>
             {link?.submenu && (
               <div>
-                <div className="absolute top-20  hidden group-hover:lg:block hover:lg:block">
-                  <div className="py-3">
+                <div className="absolute top-20 lg:top-16  hidden group-hover:lg:block hover:lg:block">
+                  {/* <div className="py-3">
                     <div
                       className="w-4 h-4 left-3 absolute 
                     mt-1 bg-white rotate-45"
                     ></div>
-                  </div>
+                  </div> */}
                   <div className="bg-white p-5 grid grid-cols-3 gap-10">
                     {link?.sublinks.map((mysublinks, index) => (
                       <div key={index}>
