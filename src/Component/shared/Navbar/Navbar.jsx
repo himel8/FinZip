@@ -8,9 +8,13 @@ import NavLinks from "./NavLinks";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="bg-white">
-      <div className="flex items-center font-medium justify-between w-[95%] xl:w-[80%] mx-auto">
-        <div className="z-50 py-5 px-1 lg:w-auto w-full flex justify-between">
+    <nav
+      className={`z-[100] top-0 w-full ${
+        open ? "bg-white fixed shadow-2xl" : "bg-transparent absolute"
+      } duration-500`}
+    >
+      <div className="flex items-center font-medium justify-between w-[95%] xl:w-[80%] mx-auto ">
+        <div className={`z-50 py-5 px-1 lg:w-auto w-full flex justify-between`}>
           <img src={Logo} alt="logo" className="lg:cursor-pointer h-9" />
           <div
             className="text-3xl lg:hidden cursor-pointer"
@@ -47,7 +51,7 @@ const Navbar = () => {
         {/* Mobile nav */}
         <ul
           className={`
-        lg:hidden bg-white absolute w-full top-0 overflow-y-auto bottom-0 py-24 pl-4 scrollbar-hide
+        lg:hidden bg-white absolute w-full h-screen top-0 overflow-y-auto bottom-0 py-24 pl-4 scrollbar-hide
         duration-500 ${open ? "left-0" : "left-[-100%]"}
         `}
         >

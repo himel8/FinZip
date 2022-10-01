@@ -6,7 +6,7 @@ import Title from "../../shared/Title";
 
 const HeroSection = () => {
   return (
-    <section className="w-[95%] sm:w-[90%] md:w-[80%] mx-auto flex justify-center items-center min-h-screen flex-wrap-reverse lg:flex-nowrap gap-10 lg:gap-0 my-10 lg:my-0  mb-20">
+    <section className="w-[95%] sm:w-[90%] md:w-[80%] mx-auto flex justify-center items-center min-h-screen flex-wrap-reverse lg:flex-nowrap gap-10 lg:gap-0 lg:my-0  my-20">
       <div className="flex flex-col gap-6">
         <Title first="Health" middle="Insurance." last="Simplified" />
         <SubText Style="px-4 lg:px-0 text-lg">
