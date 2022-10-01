@@ -6,8 +6,9 @@ module.exports = {
       fontFamily: {
         title: "'brutaltype-black'",
         text: "'CoreSansE'",
+        link: "'MyriadPro'",
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };

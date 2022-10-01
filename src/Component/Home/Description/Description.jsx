@@ -55,9 +55,9 @@ const Description = () => {
               {data.title}
             </h2>
             <SubText Style={"text-[1rem]"}>{data.muteText}</SubText>
-            <SubText>{data.paraText}</SubText>
+            <SubText Style={"text-lg"}>{data.paraText}</SubText>
             <div className="flex justify-center lg:justify-start items-center">
-              <Button Style="bg-black text-white" href="#!">
+              <Button Style="bg-black text-white" link="#!">
                 Get Started
               </Button>
             </div>

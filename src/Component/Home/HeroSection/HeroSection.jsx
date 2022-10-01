@@ -9,17 +9,17 @@ const HeroSection = () => {
     <section className="w-[95%] sm:w-[90%] md:w-[80%] mx-auto flex justify-center items-center min-h-screen flex-wrap-reverse lg:flex-nowrap gap-10 lg:gap-0 mb-20">
       <div className="flex flex-col gap-6">
         <Title first="Health" middle="Insurance." last="Simplified" />
-        <SubText Style="px-4 lg:px-0">
+        <SubText Style="px-4 lg:px-0 text-lg">
           Insurance is a vital part of any business.
           <br /> Get industry-focused insurance solutions that are best-suited
           for your teams and business.
         </SubText>
 
         <div className="mt-4 flex gap-4 items-center lg:justify-start justify-center">
-          <Button Style="bg-black text-white" href="#!">
+          <Button Style="bg-black text-white" link="#!">
             Get Started
           </Button>
-          <Button Style="border border-black" href="#!">
+          <Button Style="border border-black" link="#!">
             Know More
           </Button>
         </div>

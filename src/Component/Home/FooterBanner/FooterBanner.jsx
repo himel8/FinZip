@@ -14,7 +14,7 @@ const FooterBanner = () => {
           Management with an all-in-one Platform with Finzip
         </SubText>
         <div className="flex justify-center items-center md:justify-start">
-          <Button Style="bg-white text-[#00A3D3] px-4 py-3" href="#!">
+          <Button Style="bg-white text-[#00A3D3] px-4 py-3" link="#!">
             Connect With Us
           </Button>
         </div>

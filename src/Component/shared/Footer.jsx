@@ -1,4 +1,5 @@
 import React from "react";
+import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 import SubText from "./SubText";
 
 const footerData = [
@@ -39,13 +40,23 @@ const Footer = () => {
           <h6 className="font-title text-2xl text-white font-normal mb-2">
             Get In Touch
           </h6>
-          <SubText Style="text-white text-[15px]">
+          <SubText Style="text-white text-[1rem]">
             Lorem ipsum Lorem ipsum Lorem
           </SubText>
-          <SubText Style="text-white text-[15px]">
+          <SubText Style="text-white text-[1rem]">
             Lorem ipsum Lorem ipsum Lorem
           </SubText>
-          <dir></dir>
+          <div className="flex gap-6 text-white mt-4">
+            <a href="#!">
+              <BsFacebook className="text-2xl cursor-pointer hover:scale-125 transform transition-all ease-in-out duration-700" />
+            </a>
+            <a href="#!">
+              <BsInstagram className="text-2xl cursor-pointer hover:scale-125 transform transition-all ease-in-out duration-700" />
+            </a>
+            <a href="#!">
+              <BsTwitter className="text-2xl cursor-pointer hover:scale-125 transform transition-all ease-in-out duration-700" />
+            </a>
+          </div>
         </div>
         {footerData.map((data, index) => (
           <div key={index}>
