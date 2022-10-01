@@ -33,7 +33,7 @@ const testimonialData = [
 
 const Testimonial = () => {
   return (
-    <section className="min-h-screen">
+    <section className="min-h-screen py-8 lg:py-0">
       <h2 className="font-text text-5xl text-center font-light text-[#606060] mb-8">
         Testimonial
       </h2>
