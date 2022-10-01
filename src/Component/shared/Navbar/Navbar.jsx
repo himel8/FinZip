@@ -9,8 +9,8 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <nav className="bg-white">
-      <div className="flex items-center font-medium justify-around w-[95%] xl:w-[80%] mx-auto">
-        <div className="z-50 p-5 lg:w-auto w-full flex justify-between">
+      <div className="flex items-center font-medium justify-between w-[95%] xl:w-[80%] mx-auto">
+        <div className="z-50 py-5 px-1 lg:w-auto w-full flex justify-between">
           <img src={Logo} alt="logo" className="lg:cursor-pointer h-9" />
           <div
             className="text-3xl lg:hidden cursor-pointer"

@@ -43,7 +43,7 @@ const Description = () => {
       {descData.map((data) => (
         <div
           key={data.id}
-          className={`flex justify-center items-center min-h-screen gap-4 flex-wrap lg:flex-nowrap my-10 ${
+          className={`flex justify-center items-center min-h-screen gap-4 flex-wrap lg:flex-nowrap my-10 mb-20 lg:mb-0 ${
             data.id % 2 === 0 ? "flex-row-reverse" : "flex-row"
           }`}
         >
