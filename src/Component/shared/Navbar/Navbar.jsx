@@ -55,7 +55,7 @@ const Navbar = () => {
             <Link
               onClick={() => setOpen(false)}
               to="/"
-              className="py-7 px-3 inline-block font-link text-[#737373] text-[1rem]"
+              className="py-5 px-3 inline-block font-link text-[#737373] text-[1rem]"
             >
               Home
             </Link>

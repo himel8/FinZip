@@ -51,7 +51,7 @@ const Description = () => {
             <img src={data.img} alt="" className="w-full" />
           </div>
           <div className="w-full flex flex-col gap-6">
-            <h2 className="text-[3rem] md:text-6xl leading-[3.2rem] md:leading-[3.8rem] font-normal font-title text-center lg:text-left lg:mr-12 mr-0">
+            <h2 className="text-[2.5rem] leading-[2.8rem] md:text-6xl md:leading-[3.8rem] font-normal font-title text-center lg:text-left lg:mr-12 mr-0">
               {data.title}
             </h2>
             <SubText Style={"text-[1rem]"}>{data.muteText}</SubText>
