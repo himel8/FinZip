@@ -39,11 +39,11 @@ const descData = [
 
 const Description = () => {
   return (
-    <section className="w-[80%] mx-auto">
+    <section className="w-[95%] sm:w-[90%] md:w-[80%] mx-auto">
       {descData.map((data) => (
         <div
           key={data.id}
-          className={`flex justify-center items-center min-h-screen gap-6 ${
+          className={`flex justify-center items-center min-h-screen gap-4 flex-wrap lg:flex-nowrap my-10 ${
             data.id % 2 === 0 ? "flex-row-reverse" : "flex-row"
           }`}
         >
@@ -51,13 +51,12 @@ const Description = () => {
             <img src={data.img} alt="" className="w-full" />
           </div>
           <div className="w-full flex flex-col gap-6">
-            <h2 className="text-6xl font-normal font-title text-center lg:text-left mr-12">
-              {" "}
-              {data.title}{" "}
+            <h2 className="text-6xl font-normal font-title text-center lg:text-left lg:mr-12 mr-0">
+              {data.title}
             </h2>
             <SubText Style={"text-[1rem]"}>{data.muteText}</SubText>
             <SubText>{data.paraText}</SubText>
-            <div>
+            <div className="flex justify-center lg:justify-start items-center">
               <Button Style="bg-black text-white" href="#!">
                 Get Started
               </Button>
