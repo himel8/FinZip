@@ -1,13 +1,19 @@
 import React from "react";
 import { BsStar, BsStarFill } from "react-icons/bs";
 import Rating from "react-rating";
+import { Autoplay } from "swiper";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 const Slider = ({ testimonialData }) => {
   return (
     <Swiper
       spaceBetween={20}
+      loop={true}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
+      modules={[Autoplay]}
       breakpoints={{
         0: {
           slidesPerView: 1,

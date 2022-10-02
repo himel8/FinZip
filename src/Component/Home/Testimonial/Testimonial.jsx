@@ -29,15 +29,31 @@ const testimonialData = [
     rating: 4,
     time: "9:51. Jan 13, 2022",
   },
+  {
+    img: Img1,
+    desc: "Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsum",
+    name: "Jane Cooper",
+    deg: "Company Ceo",
+    rating: 5,
+    time: "9:51. Jan 13, 2022",
+  },
+  {
+    img: Img3,
+    desc: "Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsum",
+    name: "Jane Cooper",
+    deg: "Company Ceo",
+    rating: 4,
+    time: "9:51. Jan 13, 2022",
+  },
 ];
 
 const Testimonial = () => {
   return (
-    <section className="min-h-screen py-8 lg:py-0">
+    <section className=" py-8 lg:py-0">
       <h2 className="font-text text-5xl text-center font-light text-[#606060] mb-8">
         Testimonial
       </h2>
-      <div className="bg-[#f4f5f7] py-16 sm:py-20 md:py-24 px-4 md:px-10">
+      <div className="bg-[#f4f5f7] py-12 sm:py-20 px-4 md:px-10">
         <Slider testimonialData={testimonialData} />
       </div>
     </section>

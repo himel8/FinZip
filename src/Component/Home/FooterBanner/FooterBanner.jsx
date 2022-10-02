@@ -5,7 +5,7 @@ import SubText from "../../shared/SubText";
 const FooterBanner = () => {
   return (
     <section className="w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%] xl:w-[70%] mx-auto bg-[#00A3D3] rounded-2xl">
-      <div className="px-2 md:px-12 py-8  flex flex-col gap-6 w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%] xl:w-[60%] mb-6">
+      <div className=" px-2 md:px-12 py-8  flex flex-col gap-6 w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%] xl:w-[60%] my-8">
         <h4 className="text-[2.2rem] md:text-[2.5rem] leading-[2.4rem] text-white font-title md:leading-[2.7rem] font-normal md:text-left text-center">
           Get Comprhensive Coverage for Your Team
         </h4>
