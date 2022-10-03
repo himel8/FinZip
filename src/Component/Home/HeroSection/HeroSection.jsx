@@ -7,7 +7,7 @@ import Title from "../../shared/Title";
 const HeroSection = () => {
   return (
     <section className="w-[95%] sm:w-[90%] md:w-[80%]  lg:w-[75%] mx-auto flex justify-center items-center min-h-screen flex-wrap-reverse lg:flex-nowrap gap-8 lg:gap-0 lg:mt-10 lg:my-0  my-20">
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-6 relative lg:after:content-arrow after:absolute after:-top-2 after:left-1/2">
         <Title first="Health" middle="Insurance." last="Simplified" />
         <SubText Style="px-4 lg:px-0 pr-0 lg:pr-8 text-lg">
           Insurance is a vital part of any business.

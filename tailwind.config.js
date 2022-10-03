@@ -8,6 +8,10 @@ module.exports = {
         text: "'CoreSansE'",
         link: "'MyriadPro'",
       },
+      content: {
+        arrow: 'url("assets/img/arrow.png")',
+        arrowT: 'url("assets/img/arrow1.png")',
+      },
     },
   },
   plugins: [require("tailwind-scrollbar-hide")],

@@ -17,7 +17,13 @@ const Description = () => {
           <div className="w-full">
             <img src={data.img} alt="" className="w-full" />
           </div>
-          <div className="w-full flex flex-col gap-6">
+          <div
+            className={`w-full flex flex-col gap-6 ${
+              data.id === 3
+                ? "relative  lg:after:content-arrowT after:absolute after:top-5 after:left-[60%] "
+                : ""
+            }`}
+          >
             <h2 className="text-[2.5rem] leading-[2.8rem] md:text-6xl md:leading-[3.8rem] font-normal font-title text-center lg:text-left lg:mr-12 mr-0">
               {data.title}
             </h2>
